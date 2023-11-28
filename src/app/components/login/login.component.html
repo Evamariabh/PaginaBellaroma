@@ -1,0 +1,40 @@
+<section class="bg-light py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="h3 mb-4" text>Iniciar Sesión</h1>
+              <form>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" name="email" id="email" #email class="form-control" placeholder="example@email.com"
+                    required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" name="password" id="password" placeholder="••••••••" #password
+                    class="form-control" required>
+                </div>
+                <button type="button" (click)="logIn(email.value, password.value)" class="btn btn-primary btn-block">Iniciar</button>             
+                <button type="click" (click)="logInWithGoogle()"
+                class="btn btn-light btn-block">
+                <div class="w-10">
+                  
+                </div>
+                  <span  class>Inicia sesión con Google</span>
+                </button>
+               
+                <p class="mt-3 text-muted">
+                  ¿Aún no tienes una cuenta?
+                  <a href="#" class="text-primary" routerLink="register">Crear cuenta</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <app-footer data-aos="flip-right"></app-footer>

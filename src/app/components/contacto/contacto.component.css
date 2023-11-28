@@ -1,0 +1,39 @@
+
+#contacto h2 {
+    font-family: 'Franklin Gothic';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+#contacto p {
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+    color: #555;
+}
+
+#contacto ul {
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+    color: #555555;
+}
+
+#contacto label {
+    font-family: 'Franklin Gothic';
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000001;
+}
+
+#contacto input,
+#contacto textarea {
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+}
+
+#contacto button {
+    font-family: 'Franklin Gothic';
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
